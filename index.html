@@ -2,37 +2,41 @@
 <html>
   <head>
     <title> Google </title>
-    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
   </head>
   <body>
-    <div class="breadcrumbs">
-      <ul>
-        <li><a href="#"> Steve </a> </li>
-        <li><a href="#"> Gmail </a> </li>
-        <li><a href="#"> Images </a> </li>
-        <li><a href='#'><img id='grid' src='menu.jpg' ></a></li>
-        <li><a href='#'><img id='bell' src='bell1.jpg'></a></li>
-        <li><a href='#'><img id='id' src='id.png'></a></li>
+      <div class="nav">
+        <ul id="breadcrumbs">
+          <li><a href="#" id="id">Profile</a></li>
+          <li><a href="#" id="bell">Notifications</a></li>
+          <li><a href="#" id="menu">Menu</a></li>
+          <li><a href="#"> Images </a></li>
+          <li><a href="#"> Gmail </a></li>
+          <li><a href="#"> Steve </a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="img/google.png">
+      </div>
+    </br>
+      <div class="wrapper">
+        <input type="text" id="bar">
+      </div>
+      <div class="buttons">
+        <a href="#" id="google"> Google Search </a>
+        <a href="#" id="lucky"> I'm Feeling Lucky </a>
+      </div>
+    <div class="bottom">
+      <ul class="settings" id="ad">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
       </ul>
-    </div>
-    <img id='main' src=google.png>
-    <form>
-      <input id='submit' type="text" name="google search">
-    </form>
-    <br>
-    <div id='search'><p class='text'>Google Search</p></div>
-    <div id='lucky'><p class='text'>I'm Feeling Lucky</p></div>
-    <div class='bottom'>
-      <ul class='corporate'>
-        <li><a href='#'>Advertising</a></li>
-        <li><a href='#'>Business</a></li>
-        <li><a href='#'>About</a></li>
-      </ul>
-      <ul class='settings'>
-        <li><a href='#'>Privacy</a></li>
-        <li><a href='#'>Terms</a></li>
-        <li><a href='#'>Settings</a></li>
+      <ul class="settings" id="priv">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
       </ul>
     </div>
   </body>
